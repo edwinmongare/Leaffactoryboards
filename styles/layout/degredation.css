@@ -1,0 +1,10 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+
+  .dashboard__section {
+    height: 50vh;
+    width: 50%;
+    overflow: auto;
+  }

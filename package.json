@@ -1,0 +1,42 @@
+{
+ "name": "leaf-boards",
+ "version": "8.0.1-SNAPSHOT",
+ "private": true,
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "export": "next build && next export",
+  "lint": "next lint",
+  "format": "prettier --write \"**/**/*.{js,ts,tsx}\"",
+  "deploy": "npm run build && npm run export && touch out/.nojekyll && npx gh-pages -d out"
+ },
+ "dependencies": {
+  "@fullcalendar/core": "^5.11.2",
+  "@fullcalendar/daygrid": "^5.11.2",
+  "@fullcalendar/interaction": "^5.11.2",
+  "@fullcalendar/react": "^5.11.2",
+  "@fullcalendar/timegrid": "^5.11.2",
+  "axios": "^1.3.3",
+  "chart.js": "^3.9.1",
+  "date-fns": "^2.29.3",
+  "date-fns-tz": "^2.0.0",
+  "formik": "^2.2.9",
+  "framer-motion": "^9.0.4",
+  "next": "12.3.1",
+  "primeflex": "^3.2.1",
+  "primeicons": "^6.0.1",
+  "primereact": "^8.6.1",
+  "react": "18.2.0",
+  "react-dom": "18.2.0",
+  "react-transition-group": "^4.4.5",
+  "yup": "^1.0.1"
+ },
+ "devDependencies": {
+  "eslint": "8.21.0",
+  "eslint-config-next": "12.2.4",
+  "gh-pages": "^5.0.0",
+  "prettier": "2.7.1",
+  "sass": "^1.54.4"
+ }
+}
